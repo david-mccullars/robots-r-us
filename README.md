@@ -1,68 +1,79 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Robots-R-Us
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+You've just been hired at Robots-R-Us. Your first task is to build a social-media inspired employee directory using React. The data is provided, and the designer gave you this spec to work off:
 
-### `yarn start`
+![Image of Robots-R-Us](https://i.imgur.com/kcDj5a5.png)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Objective
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+* Build employee directory using reusable React components, _inspired_ by the spec above
+* Open a pull request against `main` with whatever you've completed to have your code reviewed
 
-### `yarn test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Fork this repo
 
-### `yarn build`
+Click on the Fork button in the top-right corner of this repo. This creates a new copy of `robots-r-us` under your GitHub user account with a URL like:
+```
+https://github.com/<YourUserName>/robots-r-us
+```
+The copy includes all the code, branches, and commits from the original repo.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Next, clone the repo by opening the terminal on your computer and running the command:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```
+git clone https://github.com/<YourUserName>/robots-r-us
+```
+Once the repo is cloned, you need to do two things:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Create a new branch by issuing the command:
+```
+git checkout -b new_branch
+```
 
-### `yarn eject`
+Create a new remote for the upstream repo with the command:
+```
+git remote add upstream https://github.com/bloomfire/robots-r-us
+```
+In this case, "upstream repo" refers to the original repo you created your fork from.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+_Having Git issues? Check out [this article](https://opensource.com/article/19/7/create-pull-request-github)_
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Up & Running
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Get the server running
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+$ cd robots-r-us
+$ yarn start
+```
 
-## Learn More
+Navigate to `localhost:3000`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## To-Do
+* Render robot `data` on the page — include the robots' full names, email addresses, avatars, and job titles in their profiles
+* Add a dynamic, clickable "Follow" button to each profile that distinguishes between followed and unfollowed robots
+* Style the page to make it your own (background colors, layouts, cards vs list-items, etc)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Bonus points if you...
+* Use React Hooks
+* Sort robots by last name
+* Add a default avatar for robots who don't have one
 
-### Code Splitting
+## Guidelines
+* Don't spend more than 1 hour on this challenge
+* Commit often, perfect later — commit your code as you go, even if it's not perfect (it will help us understand your process and train of thought). That being said, make sure your final product is code you're proud of
+* Feel free to use libraries and plugins (lodash, styled-components, etc). We use them all the time
+* Don't worry about testing. They're not required (but it won't hurt if you want to add some)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Submit Your Code
 
-### Analyzing the Bundle Size
+Once you push the changes to your repo, the **Compare & pull request** button will appear in GitHub.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Open a pull request by clicking the **Create pull request** button. From here, we will review your code. 
 
-### Making a Progressive Web App
+_Having Git issues? Check out [this article](https://opensource.com/article/19/7/create-pull-request-github)_
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+###### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
