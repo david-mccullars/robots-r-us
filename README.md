@@ -30,7 +30,7 @@ Once the repo is cloned, you need to do two things:
 
 Create a new branch by issuing the command:
 ```
-git checkout -b new_branch
+git checkout -b <your_name_and_branch_name>
 ```
 
 Create a new remote for the upstream repo with the command:
@@ -58,15 +58,17 @@ Navigate to `localhost:3000`
 * Style the page to make it your own (background colors, layouts, cards vs list-items, etc)
 
 #### Bonus points if you...
+* Add responsive styling
 * Use React Hooks
 * Sort robots by last name
 * Add a default avatar for robots who don't have one
+* Retain following state on refresh
 
 ## Guidelines
-* Don't spend more than 1 hour on this challenge
+* We don't expect you to spend more than 1 hour on this challenge
 * Commit often, perfect later — commit your code as you go, even if it's not perfect (it will help us understand your process and train of thought). That being said, make sure your final product is code you're proud of
 * Feel free to use libraries and plugins (lodash, styled-components, etc). We use them all the time
-* Don't worry about testing. They're not required (but it won't hurt if you want to add some)
+* Don't worry about automated tests. They're not required (but it won't hurt if you want to add some)
 
 ## Submit Your Code
 
